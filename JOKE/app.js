@@ -15,5 +15,11 @@ async function joke() {
     let jokeData = await response.json(); // JSONデータを取得してパース
 
     // 取得したジョークをHTMLの特定の要素に表示
+
+
+
+
+
+    
     document.getElementById("content").innerHTML = jokeData.joke;
 }
